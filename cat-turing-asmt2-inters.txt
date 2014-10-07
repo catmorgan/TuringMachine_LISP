@@ -1,0 +1,104 @@
+cat-turing-asmt2.lisp
+
+; (TOP-LEVEL-FORM 19)
+State: 0, Pos: 0, Char:$, Tape:#($ A A A _ _ _ _)
+Moving right!
+State: 0, Pos: 1, Char:A, Tape:#($ A A A _ _ _ _)
+Printing: _
+State: 1, Pos: 1, Char:_, Tape:#($ _ A A _ _ _ _)
+Moving right!
+State: 0, Pos: 2, Char:A, Tape:#($ _ A A _ _ _ _)
+Printing: _
+State: 1, Pos: 2, Char:_, Tape:#($ _ _ A _ _ _ _)
+Moving right!
+State: 0, Pos: 3, Char:A, Tape:#($ _ _ A _ _ _ _)
+Printing: _
+State: 1, Pos: 3, Char:_, Tape:#($ _ _ _ _ _ _ _)
+Moving right!
+State: 0, Pos: 4, Char:_, Tape:#($ _ _ _ _ _ _ _)
+Printing: _
+State: -1, Pos: 4, Char:_, Tape:#($ _ _ _ _ _ _ _)
+ Finished!
+ 
+; (TOP-LEVEL-FORM 20)
+State: 0, Pos: 0, Char:$, Tape:#($ A _ A _ _ _ _)
+Moving right!
+State: 0, Pos: 1, Char:A, Tape:#($ A _ A _ _ _ _)
+Printing: _
+State: 1, Pos: 1, Char:_, Tape:#($ _ _ A _ _ _ _)
+Moving right!
+State: 0, Pos: 2, Char:_, Tape:#($ _ _ A _ _ _ _)
+Printing: _
+State: -1, Pos: 2, Char:_, Tape:#($ _ _ A _ _ _ _)
+ Finished!
+ 
+; (TOP-LEVEL-FORM 21)
+State: 0, Pos: 0, Char:$, Tape:#($ _ _ _ _ _)
+Moving right!
+State: 0, Pos: 1, Char:_, Tape:#($ _ _ _ _ _)
+Printing: _
+State: -1, Pos: 1, Char:$, Tape:#($ _ _ _ _ _)
+ Finished!
+ 
+; (TOP-LEVEL-FORM 22)
+State: 0, Pos: 0, Char:$, Tape:#($ A A A)
+Moving right!
+State: 0, Pos: 1, Char:A, Tape:#($ A A A)
+Printing: _
+State: 1, Pos: 1, Char:_, Tape:#($ _ A A)
+Moving right!
+State: 0, Pos: 2, Char:A, Tape:#($ _ A A)
+Printing: _
+State: 1, Pos: 2, Char:_, Tape:#($ _ _ A)
+Moving right!
+State: 0, Pos: 3, Char:A, Tape:#($ _ _ A)
+Printing: _
+State: 1, Pos: 3, Char:_, Tape:#($ _ _ _)
+Moving right!
+State: 0, Pos: 4, Char:_, Tape:#($ _ _ _)
+ Finished!
+ 
+; (TOP-LEVEL-FORM 23)
+State: 0, Pos: 0, Char:$, Tape:#($ 1 1 0 0 1)
+Moving right!
+State: 1, Pos: 1, Char:1, Tape:#($ 1 1 0 0 1)
+Printing: 0
+State: 2, Pos: 1, Char:0, Tape:#($ 0 1 0 0 1)
+Moving right!
+State: 1, Pos: 2, Char:1, Tape:#($ 0 1 0 0 1)
+Printing: 0
+State: 2, Pos: 2, Char:0, Tape:#($ 0 0 0 0 1)
+Moving right!
+State: 1, Pos: 3, Char:0, Tape:#($ 0 0 0 0 1)
+Printing: 1
+State: 2, Pos: 3, Char:1, Tape:#($ 0 0 1 0 1)
+Moving right!
+State: 1, Pos: 4, Char:0, Tape:#($ 0 0 1 0 1)
+Printing: 1
+State: 2, Pos: 4, Char:1, Tape:#($ 0 0 1 1 1)
+Moving right!
+State: 1, Pos: 5, Char:1, Tape:#($ 0 0 1 1 1)
+Printing: 0
+State: 2, Pos: 5, Char:0, Tape:#($ 0 0 1 1 0)
+Moving right!
+State: 1, Pos: 6, Char:0, Tape:#($ 0 0 1 1 0)
+ Finished!
+ 
+; (TOP-LEVEL-FORM 24)
+State: 0, Pos: 0, Char:$, Tape:#($ 0 0 0)
+Moving right!
+State: 1, Pos: 1, Char:0, Tape:#($ 0 0 0)
+Printing: 1
+State: 2, Pos: 1, Char:1, Tape:#($ 1 0 0)
+Moving right!
+State: 1, Pos: 2, Char:0, Tape:#($ 1 0 0)
+Printing: 1
+State: 2, Pos: 2, Char:1, Tape:#($ 1 1 0)
+Moving right!
+State: 1, Pos: 3, Char:0, Tape:#($ 1 1 0)
+Printing: 1
+State: 2, Pos: 3, Char:1, Tape:#($ 1 1 1)
+Moving right!
+State: 1, Pos: 4, Char:1, Tape:#($ 1 1 1)
+ Finished!
+
